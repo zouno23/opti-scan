@@ -213,6 +213,7 @@ export default function AddReportModal({ patients }: { patients: User[] }) {
                 <Button
                   onClick={() => {
                     setIsOpen(false);
+                    setResult(null);
                     form.reset();
                   }}
                   className="w-full"
